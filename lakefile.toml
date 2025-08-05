@@ -1,0 +1,10 @@
+name = "fp"
+version = "0.1.0"
+defaultTargets = ["hello"]
+
+[[lean_lib]]
+name = "Tpil"
+
+[[lean_exe]]
+name = "hello"
+root = "Hello"
