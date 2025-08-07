@@ -295,4 +295,9 @@ example : (((p → q) → p) → p) := fun h => byContradiction
         hnp (h hpq)
 
 
+
+
 end exercises
+--something I did for fun. Yeah it's really simple but it's an example off the
+--top of my head so fuck it, I'm leaving it here
+example (p q r: Prop) (h: p → q → r) : q → p → r := fun hq hp => h hp hq
